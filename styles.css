@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fff0f5;
+    color: #333;
+}
+
+header {
+    background-color: #ffb6c1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    color: #ff69b4;
+}
+
+.canciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.boton-cancion {
+    background-color: #ff7eb3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.boton-cancion:hover {
+    background-color: #ff4f94;
+}
+
+footer {
+    background-color: #ffc0cb;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.imagen-final {
+    max-width: 400px;  /* Limita el ancho máximo a 400px */
+    max-height: 300px; /* Limita la altura máxima a 300px */
+    width: auto;       /* Mantiene la proporción */
+    height: auto;      /* Mantiene la proporción */
+    display: block;    /* Centra la imagen */
+    margin: 20px auto; /* Añade espacio alrededor de la imagen */
+}
